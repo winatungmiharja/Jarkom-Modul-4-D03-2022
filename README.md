@@ -550,7 +550,48 @@ route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.186.160.1
 
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/64743796/203577204-0220cd7f-2b7f-4007-9952-cb0a8b5dc034.png">
 
- 
+## Hasil IP per komputer
+
+1. Haines
+<img width="378" alt="image" src="https://user-images.githubusercontent.com/64743796/203580381-169e9de2-0dfc-47ac-95d8-d77fe994574c.png">
+
+2. Helga
+<img width="322" alt="image" src="https://user-images.githubusercontent.com/64743796/203580413-b2fe88c5-e031-4ab9-b32d-5c5fafffb43b.png">
+
+3. Spendrow
+<img width="326" alt="image" src="https://user-images.githubusercontent.com/64743796/203580433-22d2ca6b-0d55-4168-8e32-99d44d39fcf0.png">
+
+4. Asahf
+<img width="338" alt="image" src="https://user-images.githubusercontent.com/64743796/203580448-5c65387e-52c3-48d5-8f52-c3724c422a61.png">
+
+5. Keith
+<img width="327" alt="image" src="https://user-images.githubusercontent.com/64743796/203580467-7480be73-c1cb-4a54-a2dd-208a6b55b821.png">
+
+6. Johan
+<img width="336" alt="image" src="https://user-images.githubusercontent.com/64743796/203580484-5e489703-3b57-473d-ae6b-695667251a12.png">
+
+7. Phanora
+<img width="350" alt="image" src="https://user-images.githubusercontent.com/64743796/203580556-5705cfc4-4383-49fc-8f4a-65460a8e4742.png">
+
+8. The Beast
+<img width="336" alt="image" src="https://user-images.githubusercontent.com/64743796/203580578-1ee81fcf-e6af-41d5-a9a7-3730cea050c9.png">
+
+9. Corvekt
+<img width="345" alt="image" src="https://user-images.githubusercontent.com/64743796/203580606-0a252e76-ef9f-4810-acef-d3b0983eb59d.png">
+
+10. Oakkleave
+<img width="348" alt="image" src="https://user-images.githubusercontent.com/64743796/203580688-bbedd91f-eb07-4266-941e-21910c755acb.png">
+
+11. MattCugat
+<img width="348" alt="image" src="https://user-images.githubusercontent.com/64743796/203580719-0d5f9815-3bce-44a8-a36a-b9bd9ffdf0e3.png">
+
+12. The Witch
+<img width="335" alt="image" src="https://user-images.githubusercontent.com/64743796/203580738-4a9dee92-9418-4540-9d10-41650d9615e7.png">
+
+13. Guideau
+<img width="344" alt="image" src="https://user-images.githubusercontent.com/64743796/203580769-87676a92-bcc4-482a-a3b1-822c550699a0.png">
+
+
 ## VLSM
 
 Perhitungan IP  
