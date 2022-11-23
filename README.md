@@ -547,3 +547,51 @@ route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.186.160.1
 ```
  
 ## VLSM
+
+Perhitungan IP  
+| Subnet    | Alias                         | Jumlah IP | Netmask |
+| --------- | ----------------------------- | --------- | ------- |
+| A1        | guideau - the minister        | 1001      | 22      |
+| A2        | the minister - the order      | 2         | 30      |
+| A3        | the order - asnaf             | 51        | 26      |
+| A4        | the order - the reisnonace    | 2         | 30      |
+| A5        | the reisnonace - server       | 2         | 30      |
+| A6        | the reisnonace - server       | 2         | 30      |
+| A7        | magical-haines-corvekt        | 271       | 23      |
+| A8        | minister-dauntless            | 2         | 30      |
+| A9        | mtt cugat-the instrument      | 121       | 25      |
+| A10       | the reisonance-the instrument | 2         | 30      |
+| A11       | the dountless-phanora-johan   | 251       | 24      |
+| A12       | the instrument-the profound   | 2         | 30      |
+| A13       | the profound-spendrow         | 121       | 25      |
+| A14       | keith-the firefist-the queen  | 211       | 24      |
+| A15       | the instrument-the firefist   | 2         | 30      |
+| A16       | heiga-the profound            | 71        | 25      |
+| A17       |                               | 2         | 30      |
+| A18       |                               | 501       | 23      |
+| Jumlah IP | 2617                          | 20        |
+
+Pohon IP  
+<img width="897" alt="Screenshot 2022-11-23 at 21 31 10" src="https://user-images.githubusercontent.com/57696730/203572473-c614bdb7-c565-4ec3-9e07-83d0953a4e31.png">  
+
+Hasil Pembagian IP per node  
+| Subnet | Node           | IP            | Length |
+| ------ | -------------- | ------------- | ------ |
+| A1     | The Minister   | 192.186.0.1   | /22    |
+| A1     | Guideau        | 192.186.0.2   |        |
+| A2     | The Minister   | 192.186.9.194 | /30    |
+| A2     | The Order      | 192.186.9.193 |        |
+| A3     | The Order      | 192.186.9.129 | /26    |
+| A3     | Asnaf          | 192.186.9.130 |        |
+| A4     | The Order      | 192.186.9.197 | /30    |
+| A4     | The Resinonace | 192.186.9.198 |        |
+| A5     | The Resinonace | 192.186.9.201 | /30    |
+| A5     | Server         | 192.186.9.202 |        |
+| A6     | The Resinonace | 192.186.9.205 | /30    |
+| A6     | The Magical    | 192.186.9.206 |        |
+| A7     | The Magical    | 192.186.4.1   | /23    |
+| A7     | Haines         | 192.186.4.2   |        |
+| A7     | Corvekt        | 192.186.4.3   |        |
+| A8     | The Minister   | 192.186.9.209 | /30    |
+| A8     | The Dauntless  | 192.186.9.210 |  
+
