@@ -15,8 +15,8 @@
 <details>
   <summary>Expand</summary>
   
- 1. [CIDR dengan GNS](https://github.com/winatungmiharja/Jarkom-Modul-3-D03-2022/#CIDR)
- 2. [VLSM dengan CPT](https://github.com/winatungmiharja/Jarkom-Modul-3-D03-2022/#VLSM)
+ 1. [CIDR dengan GNS](https://github.com/winatungmiharja/Jarkom-Modul-4-D03-2022/#CIDR)
+ 2. [VLSM dengan CPT](https://github.com/winatungmiharja/Jarkom-Modul-4-D03-2022/#VLSM)
  
 </details>
  
