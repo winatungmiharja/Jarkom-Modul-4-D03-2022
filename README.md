@@ -121,7 +121,7 @@ dengan metode ini, kita akan menggabungkan subnet dari node yang paling jauh dar
  
 ### Pohon IP
  
-![image](https://user-images.githubusercontent.com/64743796/203561580-e646c761-909c-49fd-a225-8d80f22cdc3d.png)
+![image](https://user-images.githubusercontent.com/64743796/203562242-64138541-6cd4-4e26-b045-ec8dc4545440.png)
 
 ### Tabel Pembagian IP
 
@@ -146,5 +146,404 @@ dengan metode ini, kita akan menggabungkan subnet dari node yang paling jauh dar
 | A17    | the queen-the witch           | 192.186.131.0   | 255.255.255.252 | 30     |
 | A18    | the firefist-oakleave         | 192.186.128.0   | 255.255.254.0   | 23     |
  
+
+### Network Configuration
+
+1. Guideau
+```
+auto eth0
+iface eth0 inet static
+address 192.186.0.2
+netmask 255.255.252.0
+gateway 192.186.0.1
+```
+
+2. The Minister
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 192.186.8.2
+netmask 255.255.255.252
+gateway 192.186.8.1
+
+auto eth1
+iface eth1 inet static
+address 192.186.0.1
+netmask 255.255.252.0
+
+auto eth2
+iface eth2 inet static
+address 192.186.5.1
+netmask 255.255.255.252
+```
+
+3. The Dauntless
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 192.186.5.2
+netmask 255.255.255.252
+gateway 192.186.5.1
+
+auto eth1
+iface eth1 inet static
+address 192.186.4.1
+netmask 255.255.255.0
+```
+
+4. Phanora
+```
+auto eth0
+iface eth0 inet static
+address 192.186.4.2
+netmask 255.255.255.0
+gateway 192.186.4.1
+```
+
+5. Johan
+```
+auto eth0
+iface eth0 inet static
+address 192.186.4.3
+netmask 255.255.255.0
+gateway 192.186.4.1
+```
+
+6. The Order
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 192.186.32.2
+netmask 255.255.255.252
+gateway 192.186.32.1
+
+auto eth1
+iface eth1 inet static
+address 192.186.16.1
+netmask 255.255.255.192
+
+auto eth2
+iface eth2 inet static
+address 192.186.8.1
+netmask 255.255.255.252
+```
+
+7. Ashaf
+```
+auto eth0
+iface eth0 inet static
+address 192.186.16.2
+netmask 255.255.255.192
+gateway 192.186.16.1
+```
+
+8. The Resonance
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet dhcp
+
+auto eth1
+iface eth1 inet static
+address 192.186.32.1
+netmask 255.255.255.252
+
+auto eth2
+iface eth2 inet static
+address 192.186.144.1
+netmask 255.255.255.252
+
+auto eth3
+iface eth3 inet static
+address 192.186.160.1
+netmask 255.255.255.252
+
+auto eth4
+iface eth4 inet static
+address 192.186.64.1
+netmask 255.255.255.252
+```
+
+
+9. The Instrument
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 192.186.144.2
+netmask 255.255.255.252
+gateway 192.186.144.1
+
+auto eth1
+iface eth1 inet static
+address 192.186.138.1
+netmask 255.255.255.128
+
+auto eth2
+iface eth2 inet static
+address 192.186.132.1
+netmask 255.255.255.252
+
+auto eth3
+iface eth3 inet static
+address 192.186.137.1
+netmask 255.255.255.252
+```
+
+10. Matt Cugat
+```
+auto eth0
+iface eth0 inet static
+address 192.186.138.2
+netmask 255.255.255.128
+gateway 192.186.138.1
+```
+
+11. The Firefist
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 192.186.132.2
+netmask 255.255.255.252
+gateway 192.186.132.1
+
+auto eth1
+iface eth1 inet static
+address 192.186.130.1
+netmask 255.255.255.0
+
+auto eth2
+iface eth2 inet static
+address 192.186.128.1
+netmask 255.255.254.0
+```
+
+12. Keith
+```
+auto eth0
+iface eth0 inet static
+address 192.186.130.2
+netmask 255.255.255.0
+gateway 192.186.130.1
+```
+
+
+13. The Queen
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 192.186.130.3
+netmask 255.255.255.0
+gateway 192.186.130.1
+
+auto eth1
+iface eth1 inet static
+address 192.186.131.1
+netmask 255.255.255.252
+```
+
+14. The Witch
+```
+auto eth0
+iface eth0 inet static
+address 192.186.131.2
+netmask 255.255.255.252
+gateway 192.186.131.1
+```
+
+15. Oakleave
+```
+auto eth0
+iface eth0 inet static
+address 192.186.128.2
+netmask 255.255.254.0
+gateway 192.186.128.1
+```
+
+
+16. The Profound
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 192.186.137.2
+netmask 255.255.255.252
+gateway 192.186.137.1
+
+auto eth1
+iface eth1 inet static
+address 192.186.136.129
+netmask 255.255.255.128
+
+auto eth2
+iface eth2 inet static
+address 192.186.136.1
+netmask 255.255.255.128
+```
+
+17. Helga
+```
+auto eth0
+iface eth0 inet static
+address 192.186.136.130
+netmask 255.255.255.128
+gateway 192.186.136.129
+```
+
+18. Spendrow
+```
+auto eth0
+iface eth0 inet static
+address 192.186.136.2
+netmask 255.255.255.128
+gateway 192.186.136.1
+```
+
+19. The Magical
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 192.186.160.2
+netmask 255.255.255.252
+gateway 192.186.160.1
+
+auto eth1
+iface eth1 inet static
+address 192.186.192.1
+netmask 255.255.254.0
+```
+
+20. Corvekt
+```
+auto eth0
+iface eth0 inet static
+address 192.186.192.2
+netmask 255.255.254.0
+gateway 192.186.192.1
+```
+
+21. Haines
+```
+auto eth0
+iface eth0 inet static
+address 192.186.192.3
+netmask 255.255.254.0
+gateway 192.186.192.1
+```
+
+22. The Beast
+```
+auto eth0
+iface eth0 inet static
+address 192.186.64.2
+netmask 255.255.255.252
+gateway 192.186.64.1
+```
+
+### Routing
+
+
+1. The Minister
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.186.8.1
+route add -net 192.186.4.0 netmask 255.255.255.0 gw 192.186.5.2
+
+route add -net 192.186.5.0 netmask 255.255.255.252 gw 192.186.5.2
+```
+
+2. The dauntless
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.186.8.2
+```
+
+3. The Order
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.186.32.1
+route add -net 192.186.0.0 netmask 255.255.252.0 gw 192.186.8.2
+route add -net 192.186.5.0 netmask 255.255.255.252 gw 192.186.8.2
+route add -net 192.186.4.0 netmask 255.255.255.0 gw 192.186.8.2
+
+route add -net 192.186.8.0 netmask 255.255.255.252 gw 192.186.8.2
+```
+
+4. The resonance
+```
+# The Order
+route add -net 192.186.0.0 netmask 255.255.252.0 gw 192.186.32.2
+route add -net 192.186.8.0 netmask 255.255.255.252 gw 192.186.32.2
+route add -net 192.186.16.0 netmask 255.255.255.192 gw 192.186.32.2
+route add -net 192.186.5.0 netmask 255.255.255.252 gw 192.186.32.2
+route add -net 192.186.4.0 netmask 255.255.255.0 gw 192.186.32.2
+
+# The Instrument 
+route add -net 192.186.138.0 netmask 255.255.255.128 gw 192.186.144.2
+route add -net 192.186.137.0 netmask 255.255.255.252 gw 192.186.144.2
+route add -net 192.186.136.0 netmask 255.255.255.128 gw 192.186.144.2
+route add -net 192.186.130.0 netmask 255.255.255.0 gw 192.186.144.2
+route add -net 192.186.132.0 netmask 255.255.255.252 gw 192.186.144.2
+route add -net 192.186.136.128 netmask 255.255.255.128 gw 192.186.144.2
+route add -net 192.186.131.0 netmask 255.255.255.252 gw 192.186.144.2
+route add -net 192.186.128.0 netmask 255.255.254.0 gw 192.186.144.2
+
+# The Magical
+route add -net 192.186.192.0 netmask 255.255.254.0 gw 192.186.160.2
+```
+
+5. The Instrument
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.186.144.1
+route add -net 192.186.130.0 netmask 255.255.255.0 gw 192.186.132.2
+route add -net 192.186.131.0 netmask 255.255.255.252 gw 192.186.132.2
+route add -net 192.186.128.0 netmask 255.255.254.0 gw 192.186.132.2
+
+route add -net 192.186.132.0 netmask 255.255.255.252 gw 192.186.132.2
+```
+
+6. The Firefist
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.186.144.2
+route add -net 192.186.131.0 netmask 255.255.255.252 gw 192.186.130.3
+
+route add -net 192.186.130.0 netmask 255.255.255.252 gw 192.186.130.3
+```
+
+7. The Queen
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.186.132.2
+```
+
+8. The Profound
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.186.144.2
+```
+
+9. The Magical
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.186.160.1
+```
  
 ## VLSM
