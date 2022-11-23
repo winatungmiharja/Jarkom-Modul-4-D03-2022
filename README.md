@@ -545,6 +545,11 @@ route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.186.144.2
 ```
 route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.186.160.1
 ```
+
+### Hasil Topologi pada GNS3
+
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/64743796/203577204-0220cd7f-2b7f-4007-9952-cb0a8b5dc034.png">
+
  
 ## VLSM
 
